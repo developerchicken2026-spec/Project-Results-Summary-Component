@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="container-result">
+        <p class="result-p">Your Result</p>
+        <div class="result-circle">
+          <span class="span-circle">76</span>
+          <p class="p-circle">of 100</p>
+        </div>
+        <h1 class="result-h1">Great</h1>
+        <p class="result-text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <section class="container-summary">
+        <h2>Summary</h2>
+        <ul class="summary-list">
+          <li class="summary-item" data-type="reaction">
+            <div class="flex-group">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="icon reaction"
+              />
+              <span>Reaction</span>
+            </div>
+            <p class="score"><span>80</span> / 100</p>
+          </li>
+
+          <li class="summary-item" data-type="memory">
+            <div class="flex-group">
+              <img src="./assets/images/icon-memory.svg" alt="icon memory" />
+              <span>Memory</span>
+            </div>
+            <p class="score"><span>92</span> / 100</p>
+          </li>
+
+          <li class="summary-item" data-type="verbal">
+            <div class="flex-group">
+              <img src="./assets/images/icon-verbal.svg" alt="icon verbal" />
+              <span>Verbal</span>
+            </div>
+            <p class="score"><span>61</span> / 100</p>
+          </li>
+
+          <li class="summary-item" data-type="visual">
+            <div class="flex-group">
+              <img src="./assets/images/icon-visual.svg" alt="icon visual" />
+              <span>Visual</span>
+            </div>
+            <p class="score"><span>72</span> / 100</p>
+          </li>
+        </ul>
+        <button class="button">Continue</button>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
